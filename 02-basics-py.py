@@ -129,7 +129,8 @@ print(b)
     - default
     - varibale length
 '''
+'''
 mysum =lambda x,y : x+y
     
 print(mysum(5,10))
-    
+''' 
