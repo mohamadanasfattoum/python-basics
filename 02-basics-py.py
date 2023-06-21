@@ -92,14 +92,19 @@ for x in range(1,9):
     print('*'*x)
 '''
 # Functions
-
+'''
 def mysum():
     x = 5
     y = 10
     print(x+y)
 
 mysum()
+'''
+def mysum(x,y):
+    print(x+y)
 
-
+mysum(5,10)
+mysum(5,50)
+    
 
     
