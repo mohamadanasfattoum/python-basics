@@ -116,11 +116,20 @@ def divdeby(x,y):
 
 divdeby(5,10)
 '''
-
+'''
 def mysum1(x,y):
     return x+y
     
 b = mysum1(5,10)
 print(b)
-
+'''
+'''
+    - requird
+    - keyword
+    - default
+    - varibale length
+'''
+mysum =lambda x,y : x+y
+    
+print(mysum(5,10))
     
