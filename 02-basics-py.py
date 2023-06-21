@@ -91,6 +91,15 @@ for x in range(start):
 for x in range(1,9):
     print('*'*x)
 '''
+# Functions
+
+def mysum():
+    x = 5
+    y = 10
+    print(x+y)
+
+mysum()
+
 
 
     
