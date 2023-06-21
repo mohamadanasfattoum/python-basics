@@ -100,11 +100,27 @@ def mysum():
 
 mysum()
 '''
+'''
 def mysum(x,y):
     print(x+y)
 
 mysum(5,10)
 mysum(5,50)
+
+'''
+'''
+def divdeby(x,y):
+    for n in range(1,101):
+        if n%x==0 and n%y==0 :
+            print(n)
+
+divdeby(5,10)
+'''
+
+def mysum1(x,y):
+    return x+y
     
+b = mysum1(5,10)
+print(b)
 
     
