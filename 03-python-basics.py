@@ -39,6 +39,8 @@ print(text[:5])
 print(text[6:])
 '''
 
+
+'''
 l= [10,11,12,13,14,15,16,17,18,19,20]
 
 print(l[0])
@@ -72,8 +74,10 @@ l.pop()
 print(l)
 
 
+'''
 
-
+d={'anas':70 , 'ahmad':30}
+print(d['anas'])
 
 
 
