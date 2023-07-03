@@ -118,6 +118,9 @@ class Bank:
     def __init__(self,name,age,gender):
         print(f'welcome {name}')
         self.balance = 0
+        self.name = name
+        self.age = age
+        self.gender = gender
         
     def deposite(self,amount):
         self.balance += amount
@@ -125,15 +128,27 @@ class Bank:
 
     def withdraw(self,amount):
         if amount > self.balance:
-            print('no enough bal')
-        else:
-            self.balance -= amount
-            print(f'you current balance : {self.balance}')
-       
+            print('no enough balance')
+            return
+        self.balance -= amount
+        print(f'you current balance : {self.balance}')
+
+    def view_balance(self):
+        print(f'you current balance : {self.balance}')
+
+    def client_details(self):
+        print(f"Name:{self.name}")
+        print(f"Age:{self.age}")
+        print(f"Gender:{self.gender}")
+        print(f"Balance:{self.balance}")
 
 
 c1 = Bank('ahmad',30,'male')
 c1.deposite(500)
 c1.deposite(600)
 c1.withdraw(120)
-c1.withdraw(1111)
+c1.withdraw(500)
+c1.withdraw(500)
+c1.view_balance()
+c1.client_details()
+
