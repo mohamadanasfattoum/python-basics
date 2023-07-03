@@ -22,7 +22,7 @@ n.do()
 
 '''
 
-
+'''
 class A:
     def do(self):
         print('in A')
@@ -43,3 +43,19 @@ n = D()
 n.do()
 
 print(D.mro())
+'''
+
+'''
+    - create student
+    - add mark
+    - get avg
+'''
+
+class student:
+    def create_student(self,name):
+        print(f'Welcome {name}')
+
+
+s1 = student()
+s1.create_student('anas')
+        
