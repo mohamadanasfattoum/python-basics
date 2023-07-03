@@ -76,9 +76,11 @@ print(l)
 
 '''
 
+
+'''
 d={'anas':70 , 'ahmad':30}
 print(d['anas'])
-
+'''
 
 
 
