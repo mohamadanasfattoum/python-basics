@@ -22,4 +22,28 @@ def filter_by_length():
 
 
 
-filter_by_length()    
+def even_odd_range():
+    start = int(input('Enter Start : '))
+    end = int(input('Enter Start : '))
+
+    even = []
+    odd = []
+
+
+
+    for x in range (start, end+1):
+        if x%2==0:
+            even.append(x)
+
+        else:
+            odd.append(x)
+
+    print(even)
+    print(odd)
+
+
+
+
+even_odd_range()
+
+#filter_by_length()    
