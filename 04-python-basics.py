@@ -52,10 +52,16 @@ print(D.mro())
 '''
 
 class student:
+
+    '''
     def create_student(self,name):
         print(f'Welcome {name}')
 
 
 s1 = student()
 s1.create_student('anas')
-        
+        '''
+    def __init__(self,name):
+        print(f'Welcome {name}')
+
+s1 = student('anas')
