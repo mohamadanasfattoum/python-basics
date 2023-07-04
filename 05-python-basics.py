@@ -11,6 +11,44 @@
 # game : names seperated . . length ---> names < length
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 def filter_by_length():
     names = input('Enter Names : ')
     names_list = names.split(',')
@@ -44,6 +82,3 @@ def even_odd_range():
 
 
 
-even_odd_range()
-
-#filter_by_length()    
