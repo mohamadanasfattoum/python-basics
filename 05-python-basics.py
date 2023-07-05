@@ -17,7 +17,7 @@ class Game:
         3: To Exit ....''')
             user_choice = int(input('Enter Game Number : '))
             if user_choice == 3 :
-                return
+                break
             elif user_choice == 1 :
                 self.filter_by_length()
 
