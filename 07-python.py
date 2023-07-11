@@ -77,6 +77,13 @@ finally:  # always
 '''
     PEP8
     PIP
+            - help('modules')
+            
+            
+
+
+
+            
     ddocs & comments
     list comprehensions
     functional programming
