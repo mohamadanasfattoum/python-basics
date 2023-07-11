@@ -25,8 +25,18 @@ for _ in range (10):
 
 #for x ,y in enumerate(['anas','ali','ahmad','omar']):
     #print(f'{x} {y}: Hallo Python')
-    
+'''    
 for x ,y in enumerate(['anas','ali','ahmad','omar']):
     if x==2:
         print('-----')
     print(f'{x}: Hallo Python')
+'''
+
+try:
+    n = int(input('Enter Number : '))
+    print(10/n)
+
+
+
+except ValueError:
+    print ('please enter number ')
