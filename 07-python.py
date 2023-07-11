@@ -99,31 +99,34 @@ finally:  # always
 # user and programmer : comment
 
 
-class Calc:
-    ''' class for making a colculator '''
-    def sum(self,x,y):  # BUG #FIX #TODO
-        ''' function to return sum of 2 values
-        args : x int , y :
-        return: int
-'''
-        return x+y     # return sum of x,y
+#class Calc:
+#    ''' class for making a colculator '''
+#    def sum(self,x,y):  # BUG #FIX #TODO
+#       ''' function to return sum of 2 values
+#       args : x int , y :
+#        return: int
+#'''
+#        return x+y     # return sum of x,y
 
 
-c = Calc()
-print(c.sum(1,8))
+#c = Calc()
+#print(c.sum(1,8))
 
-
-
-
-
+#   list comprehensions
 
 
 
+names = ['anas','ali','ahmad','omar']
+
+length = []
+for x in names:
+    length.append(len(x))
+
+print(length)
 
 
-
-
-
+result = [len(x) for x in names]
+print (result)
 
 
 
