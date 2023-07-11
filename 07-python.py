@@ -168,18 +168,17 @@ odd = [x for x in numbers_odd if x%2!=0]
 print(odd)
 print(even)
 '''
-
+'''
 numbers = list(range(1,100))
 
 result = [x if x%2==0 else '*' for x in numbers ]
 print (result)
 
+'''
+d = {'anas':20, 'ali':30, 'ahmad':40} 
 
-
-
-
-
-
+d = {k:v*2 for(k,v) in d.items()}
+print(d)
 
 
 
