@@ -115,7 +115,7 @@ finally:  # always
 #   list comprehensions
 
 
-
+'''
 names = ['anas','ali','ahmad','omar']
 
 length = []
@@ -129,8 +129,15 @@ result = [len(x) for x in names]
 print (result)
 
 
-
-
+result2 = [x for x in names if len(x) > 4]
+print (result2)
+'''
+# Game input names and length with list comprehensions
+names = input('Enter names : ')
+names_list = names.split(',')
+length = int(input('Enter Length : '))
+result2 = [x for x in names_list if len(x) >= length]
+print (result2)
 
 
 
