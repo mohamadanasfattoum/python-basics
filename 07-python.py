@@ -133,11 +133,31 @@ result2 = [x for x in names if len(x) > 4]
 print (result2)
 '''
 # Game input names and length with list comprehensions
+
+'''
 names = input('Enter names : ')
 names_list = names.split(',')
 length = int(input('Enter Length : '))
 result2 = [x for x in names_list if len(x) >= length]
 print (result2)
+'''
+'''
+numbers = list(range(1,100))
+
+even = [x for x in numbers if x%2==0]
+
+
+print(even)
+
+'''
+# numbers with list comprehensions
+
+numbers = list(range(1,100))
+
+even = [x for x in numbers if x%2==0]
+odd = [x for x in numbers if x%2!=0]
+print(odd)
+print(even)
 
 
 
