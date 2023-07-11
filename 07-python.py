@@ -159,12 +159,49 @@ odd = [x for x in numbers if x%2!=0]
 print(odd)
 print(even)
 '''
-# number without if 
+# number without if
+'''
 numbers_even = list(range(0,100,2))
 numbers_odd = list(range(0,100,1))
 even = [x for x in numbers_even if x%2==0]
 odd = [x for x in numbers_odd if x%2!=0]
 print(odd)
 print(even)
+'''
+
+numbers = list(range(1,100))
+
+result = [x if x%2==0 else '*' for x in numbers ]
+print (result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
