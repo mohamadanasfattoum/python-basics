@@ -78,14 +78,56 @@ finally:  # always
     PEP8
     PIP
             - help('modules')
-            
-            
+            - dir(__builtins__)
 
-
-
-            
+            -in terminal
+            - pip show django
+            - pip show -libeary name-
+            - pip install -libeary name-
+            - pip uninstall -libeary name-
+            - pip install django --upgrade
+            - pip help
+             
     ddocs & comments
     list comprehensions
     functional programming
 
 '''
+
+# ddocs & comments
+
+# user and programmer : comment
+
+
+class Calc:
+    ''' class for making a colculator '''
+    def sum(self,x,y):  # BUG #FIX #TODO
+        ''' function to return sum of 2 values
+        args : x int , y :
+        return: int
+'''
+        return x+y     # return sum of x,y
+
+
+c = Calc()
+print(c.sum(1,8))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
