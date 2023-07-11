@@ -37,10 +37,16 @@ try:
     print(10/n)
 
 
+except (ValueError, ZeroDivisionError):
+    print ('please enter number > 0')
+
+
+
+
+'''
 except Exception:
     print ('please enter number ')
 
-'''
 except ValueError:
     print ('please enter number ')
 
