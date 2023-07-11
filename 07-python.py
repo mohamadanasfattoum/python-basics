@@ -52,7 +52,7 @@ except ValueError:
 except ZeroDivisionError:
     print ('please enter number > 0')
 '''
-
+'''
 try:
     n = int(input('Enter Number : '))
     print(10/n)
@@ -71,3 +71,14 @@ else:
 
 finally:  # always
     print('in finally')
+'''
+
+
+'''
+    PEP8
+    PIP
+    ddocs & comments
+    list comprehensions
+    functional programming
+
+'''
