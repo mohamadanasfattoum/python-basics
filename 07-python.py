@@ -16,3 +16,17 @@ print (----------)
 for _ in range (10):
     print('Hallo Python')
 '''
+
+#for x in range (10):
+    #print(f'{x}: Hallo Python')
+
+#for x in (['anas','ali','ahmad','omar']):
+    #print(f'{x}: Hallo Python')
+
+#for x ,y in enumerate(['anas','ali','ahmad','omar']):
+    #print(f'{x} {y}: Hallo Python')
+    
+for x ,y in enumerate(['anas','ali','ahmad','omar']):
+    if x==2:
+        print('-----')
+    print(f'{x}: Hallo Python')
