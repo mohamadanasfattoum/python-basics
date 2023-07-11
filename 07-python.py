@@ -31,7 +31,7 @@ for x ,y in enumerate(['anas','ali','ahmad','omar']):
         print('-----')
     print(f'{x}: Hallo Python')
 '''
-
+'''
 try:
     n = int(input('Enter Number : '))
     print(10/n)
@@ -40,9 +40,7 @@ try:
 except (ValueError, ZeroDivisionError):
     print ('please enter number > 0')
 
-
-
-
+'''
 '''
 except Exception:
     print ('please enter number ')
@@ -54,3 +52,22 @@ except ValueError:
 except ZeroDivisionError:
     print ('please enter number > 0')
 '''
+
+try:
+    n = int(input('Enter Number : '))
+    print(10/n)
+
+
+
+except ValueError:
+    print ('please enter number ')
+
+    # close
+
+
+
+else:
+    print('in else')
+
+finally:  # always
+    print('in finally')
