@@ -6,7 +6,7 @@
 
 
 #for x in range(0,11,2): print(x)
-##Functions
+##Functions-examples
 
 '''
 def getFirstValue(x,y,z):
@@ -42,10 +42,14 @@ def addition(a,b):
     return print(a+b)
 addition(a=1,b=2)
 '''
+'''
 def sum_user(name,age):
     print('Name : ' , name)
     print('Age : ' , age)
     return
-sum_user(name= 'haneen' , age= 25)
+sum_user(name= 'ahmad' , age= 25)
 sum_user(name= 'anas' , age= 25)
+'''
+
+
 
