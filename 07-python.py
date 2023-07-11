@@ -12,3 +12,7 @@ print(*_,x,y)
 print(x,*_,y)
 print (----------)
 '''
+'''
+for _ in range (10):
+    print('Hallo Python')
+'''
