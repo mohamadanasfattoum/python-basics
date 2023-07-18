@@ -27,13 +27,25 @@ numbers = list(range(1,11))
 result = map(mul,numbers)
 print(list(result))
 '''
+'''
+try:
+    def excep_defi(b):
+        return a//b
+    a= int(input('Enter thr first numbers: '))
+    b= int(input('Enter thr secund numbers: '))
+    numbers =list(range(0,10))
+    result= map(excep_defi,numbers)
+    print(list(result))
+    
+except Exception as e:
+    print("Error Code:",e)
 
-def excep_defi(b):
-    return a//b
-a= int(input('Enter thr first numbers: '))
-b= int(input('Enter thr secund numbers: '))
-numbers =list(range(1,20))
-result= map(excep_defi,numbers)
+'''
+
+names = ['ahmad','ali','hasan','mohamad']
+
+def mylen(n):
+    return len(n)
+
+result= map(mylen,names)
 print(list(result))
-
-
