@@ -28,5 +28,12 @@ result = map(mul,numbers)
 print(list(result))
 '''
 
+def excep_defi(b):
+    return a//b
+a= int(input('Enter thr first numbers: '))
+b= int(input('Enter thr secund numbers: '))
+numbers =list(range(1,20))
+result= map(excep_defi,numbers)
+print(list(result))
 
-    
+
