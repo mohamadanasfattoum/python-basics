@@ -41,7 +41,7 @@ except Exception as e:
     print("Error Code:",e)
 
 '''
-
+'''
 names = ['ahmad','ali','hasan','mohamad']
 
 def mylen(n):
@@ -49,3 +49,17 @@ def mylen(n):
 
 result= map(mylen,names)
 print(list(result))
+'''
+'''
+#lambda
+names = ['ahmad','ali','hasan','mohamad']
+
+def mylen(n):
+    return len(n)
+
+result= map(mylen,names)
+print(list(result))
+
+result2= map(lambda n : len(n),names)
+print(list(result2))
+'''
