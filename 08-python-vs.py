@@ -63,3 +63,40 @@ print(list(result))
 result2= map(lambda n : len(n),names)
 print(list(result2))
 '''
+
+'''
+names = ['ahmad','ali','hasan','mohamad']
+result= map(lambda n :len(n) , names)
+print(list(result))
+
+names = ['ahmad','ali','hasan','mohamad']
+result= filter (lambda n :len(n) , names)
+print(list(result))
+
+
+
+
+
+def myfilter(n):
+    if n>5:
+        return n
+numbers = list(range(1,11))
+result = filter(myfilter,numbers)
+print(list(result))
+
+
+def myfilter(n):
+    if n>5:
+        return n
+numbers = list(range(1,11))
+result = map(myfilter,numbers)
+print(list(result))
+
+def myfilter(n):
+    if n>2:
+        return n
+numbers = [1,2,3,4,5]
+result = map(myfilter,numbers)
+print(tuple(result))        # map and filter should be printed as list or tuple
+'''
+
