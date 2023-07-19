@@ -109,8 +109,17 @@ print(list(r))
 r2 = map(mynames,d.values())
 print(list(r2))
 '''
-
+'''
 my_list =[12,65,88,39,112,221,102,100,700]
 
 result = list(filter(lambda x: (x % 13==0),my_list))
 print(result)
+'''
+'''
+from functools import reduce
+numbers= list(range(1,11))
+def my_n(x,y):
+    return x+y
+result= (reduce(my_n,numbers))
+print(result)
+'''
