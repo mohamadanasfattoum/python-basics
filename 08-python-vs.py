@@ -99,7 +99,7 @@ numbers = [1,2,3,4,5]
 result = map(myfilter,numbers)
 print(tuple(result))        # map and filter should be printed as list or tuple
 '''
-
+'''
 d = {'ahmad':18,'ali':56,'hasan':40,'mohamad':25}
 def mynames(x):
     return x*2
@@ -108,3 +108,9 @@ print(list(r))
 
 r2 = map(mynames,d.values())
 print(list(r2))
+'''
+
+my_list =[12,65,88,39,112,221,102,100,700]
+
+result = list(filter(lambda x: (x % 13==0),my_list))
+print(result)
